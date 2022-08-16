@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+}
+.allmighty{
+
+}
+.header{
+    position: relative;
+    height: 900px;
+    width: 100vw;
+}
+.headerOne{
+    display: fixed;
+    height: 100px;
+    width: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    border:1px solid rgba(154,130,112,.2);
+}
