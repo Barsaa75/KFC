@@ -1,27 +1,19 @@
 body{
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
-.header{
-    position: relative;
-    height: 900px;
-    width: 100vw;
-    top: 100px;
-}
 .headerOne{
     height: 110px;
     width: 100vw;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
-    border:1px solid rgba(154,130,112,.2);
+    border:0px solid rgba(154,130,112,.2);
     display: flex;
     flex-direction: row;
     padding:  10px 100px;
     box-sizing: border-box;
     justify-content: space-between;
-    z-index: 1;
-    background-color: white;
 }
 .alim{
     width: 40%;
@@ -50,6 +42,7 @@ body{
     width: 48px;
     cursor: pointer;
     flex-direction: row;
+    margin-left: 200px;
 }
 .header-menuOne{
     position: absolute;
@@ -100,13 +93,6 @@ body{
     align-items: center;
     cursor: pointer;
 }
-.nevtrehlink{
-    text-decoration: none;
-    color: #9d9d9d;
-}
-.nevtrehlink:hover{
-    color: black;
-}
 .hover:hover {
     color: black;
 }
@@ -136,155 +122,40 @@ body{
 .english:hover{
     color: red;
 }
-.headerTwo{
-    height: 670px;
-    width: 100vw;
-    position: relative;
-    border:1px solid rgba(154,130,112,.2);
+.YourBusket{
     display: flex;
-    box-sizing: border-box;
-    justify-content: space-between;
-    margin-left: 0px;
-}
-.headerThree{
-    height: 150px;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    width: 1500px;
+    height: 55px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-left: 450px;
 }
-.undsen{
-    background-color: #f7f6f5!important;
-    color: #000;
+.Text{
     display: flex;
-    font-size: 22px;
     align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-right: 1000px;
+}
+.Text1{
+    position: absolute;top: 150px; left: 1600px;
+    display: flex;
+    align-items:center;
     justify-content: center;
-    cursor: pointer;
+    background-color: black;
+    color: white;
+    width: 230px;
     height: 50px;
-    width: 300px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+    border-radius: 4px;
 }
-.hurgeltiin{
-    background-color: #e4002b!important;
-    color: #fff;
-    box-shadow: inset 2px 2px 5px rgba(0,0,0,.3);
-    display: flex;
-    font-size: 22px;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    height: 50px;
-    width: 300px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-}
-.red {
-    background-color: red;
-    height: 50px;
-    margin-left: 10px;
-    width: 25px;
+.Text1:hover{
+    background-color: #e4002b;
 }
 
-.white {
-    background-color: white;
-    height: 50px;
-    width: 25px;
 
-}
-
-.red1 {
-    background-color: red;
-    height: 50px;
-    width: 25px;
-}
-
-.white1 {
-    background-color: white;
-    height: 50px;
-    width: 25px;
-}
-
-.red2 {
-    background-color: red;
-    height: 50px;
-    width: 25px;
-}
-
-.as {
-    margin-left: 1px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.a {
-    border: 1px solid rgba(154, 130, 112, .2);
-    display: flex;
-    padding-left: 500px;
-    padding-right: 100px;
-    padding: 50px 50px 50px 500px;
-}
-
-.y {
-    padding-left: 910px;
-    display: flex;
-    padding-left: 500px;
-    padding-right: 100px;
- padding-top: 10px;
-   
-}
-
-h3{
-    margin-top: 10px;
-    padding: 10px;
-}
-
-.assasa{
-    display: flex;
-    flex-direction: row;
-    padding: 5  px;
-}
-.d{
-    padding: 0px;
-    padding-left: 199px;
-}
-.r{
-    padding-left: 50px;
-    font: 100; 
-}
-.s{
-    color:silver;
-}
-.body{
-    width: 100vw;
-    height: 5700px;
-}
-.headerFour{
-    /* display: flex;
-    justify-content: center; */
-    height: 70px;
-    width: 100vw;
-    position: sticky;
-    top: 110px;
-    background-color: white;
-}
-.titleHurgelt{
-    color: black;
-    font-size: 40px;
-    font-weight: bold;
-    margin-left: 410px;
-}
-.menu{
-    margin-top:10px;
-    margin-left: 410px;
-    display: grid;
-    grid-template-columns: 190px 215px 240px 135px 135px;
-    grid-template-rows: 70px ;
-    grid-template-areas:
-    " TenderBagts BurgerBagts DanBagts HacirBagts DrinkBagts "
-    ;
+.img{
+    margin-left: 600px;
 }
 .TenderBagts{
     grid-area: TenderBagts;
@@ -374,7 +245,7 @@ h3{
 .TenderteiBagtsThree{
     display: grid;
     grid-template-columns: 25% 25% 25%;
-    grid-template-rows: 480px ;
+    grid-template-rows: 450px ;
     grid-template-areas:
     "party aylal OneHuman" 
     ;
@@ -398,10 +269,10 @@ h3{
     padding: 15px; 
     align-items: center;
     background-color: white;
-    border: 1px solid white;
     flex-direction: column;
     border-radius: 10px;
-    box-shadow: 0px 0px 1px 0px gray;
+    box-shadow:  0px 0px 5px 0px #777777;
+    border: 0.1px solid white;
 }
 .imageOne{
     display: flex;
@@ -464,34 +335,10 @@ h3{
     padding: 15px; 
     align-items: center;
     background-color: white;
-    border: 1px solid white;
-    flex-direction: column;
+    flex-direction: column; 
     border-radius: 10px;
-    box-shadow: 0px 0px 1px 0px gray;
-}
-.aylalTwo{
-    display: flex;
-    justify-content: center;
-    grid-area: aylal;
-    padding: 15px; 
-    align-items: center;
-    background-color: white;
-    border: 1px solid white;
-    flex-direction: column;
-    border-radius: 10px;
-    box-shadow: 0px 0px 1px 0px gray;
-}
-.partyTwo{
-    display: flex;
-    justify-content: center;
-    grid-area: aylal;
-    padding: 15px; 
-    align-items: center;
-    background-color: white;
-    border: 1px solid white;
-    flex-direction: column;
-    border-radius: 10px;
-    box-shadow: 0px 0px 1px 0px gray;
+    box-shadow:  0px 0px 5px 0px #777777;
+    border: 0.1px solid white;
 }
 .OneHuman{
     display: flex;
@@ -500,116 +347,108 @@ h3{
     padding: 15px; 
     align-items: center;
     background-color: white;
-    border: 1px solid white;
     flex-direction: column;
     border-radius: 10px;
-    box-shadow: 0px 0px 1px 0px gray;
+    box-shadow:  0px 0px 5px 0px #777777;
+    border: 0.1px solid white;
 }
-.WeAre{
+.buteegdehun{
+    position: absolute; top: 270px; left: 1440px;
+    width: 380px;
+    height: 270px;
+    border: 0.1px solid white;
+    border-radius: 5px;
+    box-shadow:  0px 0px 5px 0px #777777;
+}
+.baraaUne{
+   display: flex;
+   align-items: center;
+    height: 33px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #777777;
+    font-size: 16px;
+    font-weight: bold;
+}
+.hurgeltUne{
     display: flex;
-    justify-content: center;
-    grid-area: WeAre;
-    padding: 15px; 
     align-items: center;
-    background-color: white;
-    border: 1px solid white;
-    flex-direction: column;
-    border-radius: 10px;
-    box-shadow: 0px 0px 1px 0px gray;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 33px;
+    color: #777777;
+    font-size: 16px;
+    font-weight: bold;
 }
-.hooson{
+.une{
     display: flex;
-    justify-content: center;
-    grid-area: hooson;
-    padding: 15px; 
     align-items: center;
-    background-color: white;
-    border: 1px solid white;
-    flex-direction: column;
-    border-radius: 10px;
-    box-shadow: 0px 0px 1px 0px gray;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 33px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
 }
-.slide {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 50px 40px 0 15px;
-    width: 350px;
-    z-index: 101;
-    background-color: #e4002b;
-    overflow-y: auto;
-    height: 100vh;
-    display: none;
+.zuraas{
+    margin-top: 20px;
+    margin-left: 30px;
+     width: 320px;
+
+  
+
+}
+.boxButtonTwo{
+    color: white;
+    background-color:#9d9d9d;
+    width: 320px;
+    height: 50px;
+    border: 0.1px solid #9d9d9d;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.boxButtonTwo:hover{
+    background-color: #a70321;
+    cursor: pointer;
+}
+.baraaText{
+    margin-left: 200px;
+    color: black;
+    font-size: 20px;
+}
+.hurgeltText{
+    margin-left: 200px;
+    color: black;
+    font-size: 20px;
+}
+.uneText{
+    margin-left: 250px;
+    color: #e4002b;
+    font-size: 25px;
+}
+.your{
+    margin-left: 20px;
+    height: 50px;
+    width: 500px;
+}
+.NothingInTheBusket{
+    margin-left: 300px;
+}
+.empty{
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.redx {
-    color: white;
-    padding-left: 30px;
-}
-.redx:hover{
-    transform: rotate(90deg);
-    transition-delay: 0.5s;
-    transition-timing-function: linear;
-}
-
-.redtitle {
-    font-size: 24px;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-family: sans-serif;
-    line-height: 1.1;
-    font-style: normal;
-    padding: 30px 0 30px 25px;
-}
-
-.li {
-    font-size: 23px;
-    color: white;
-    padding: 10px 0;
-    font-family: sans-serif;
-    font-weight: bolder;
-    padding-left: 25px;
-}
-
-.fa {
-    padding: 0px 0px 0px 0px;
-}
-
-.footer {
-    margin-top: 50px;
-}
-.sagsandlink{
-    text-decoration: none;
-    color: white;
-}
-.redheader {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: calc(100vh - 100px);
-}
-.holboo{
-    text-transform: uppercase;
-    font-family: sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    padding-left: 25px;
-}
-.link{
-    padding-left: 25px;
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.redend{
-    padding-left: 25px;
-    color: white;
-    font-family: sans-serif;
-    padding-bottom: 14px;
-}
-.links{
-    display: flex;
-    flex-direction: row;
+.imageOne{
+    width: 270px;
+    height: 270px;
 }
 .red {
     background-color: red;
@@ -687,8 +526,8 @@ h3{
     font: 100; 
 }
 .s{
-    color:silver;}
-.lilink{
-    text-decoration: none;
-    color: white;
-}    
+    color: silver;
+}
+.footer{
+    margin-top: 100px;
+}

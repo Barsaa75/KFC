@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>KFC Увс</title>
+  <link rel="icon" type="image/x-icon" href="https://www.kfcmongolia.com/img/__logo.fb24375c.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+   
+<link rel="stylesheet" href="login.css">
+<body> 
+<div>
+        <div class="login-page">
+            <h1 class="box">НЭВТРЭХ</h1>
+            <div class="form">
+            <form class="register-form">
+                <input type="text" placeholder="name"/>
+                <input type="password" placeholder="password"/>
+                <input type="text" placeholder="email address"/>
+                <button>create</button>
+                <p class="message">Already registered? <a href="#">Sign In</a></p>
+            </form>
+            <div class="login-form" >
+                <input type="number" placeholder="утасны дугаар"/>
+                <input type="password" placeholder="нууц үг"/>
+                <button onclick="clickBtn()">НЭВТРЭХ</button>
+                <p class="message">Бүртгүүлж амжаагүй юу? <a href="#">шинээр үүсгэх</a></p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="slide">
+        <div class="redx" onclick="clickredx()">
+          <i class="fa fa-close" style="font-size: 30px"></i>
+        </div>
+        <div class="redheader">
+          <div>
+            <h3 class="redtitle">Бидний тухай</h3>
+            <div class="redsub">
+              <div class="li">KFC Монгол</div>
+              <div class="li">Хүргэлтийн бүс харах</div>
+              <div class="li">Захиалгын явц харах</div>
+              <div class="li">Нээлттэй ажлын байр</div>
+              <div class="li">Нийгмийн хариуцлага</div>
+            </div>
+          </div>
+  
+          <div class="redfooter">
+            <div class="holboo">ХОЛБООСУУД</div>
+            <div class="links">
+              <div class="link">
+                <i class="fa fa-facebook-square" style="font-size: 30px"></i>
+              </div>
+              <div class="link">
+                <i class="fa fa-instagram" style="font-size: 30px"></i>
+              </div>
+              <div class="link">
+                <i class="fa fa-youtube-play" style="font-size: 24px"></i>
+              </div>
+            </div>
+            <div class="redend">© 2021 KFC Монгол.</div>
+          </div>
+        </div>
+      </div>
+      
+  
+    <div class="headerOne"> 
+        <div class="alim">
+          <div class="header-menu" onclick="clickMenu()">
+            <div class="header-menuOne"></div>
+            <div class="header-menuTwo"></div>
+            <div class="header-menuThree"></div>
+          </div>
+
+          <div class="header-address">
+            <div class="asa">БЗД, 1-р хороо, 17-р байр</div>
+          </div>
+        </div>
+        <div class="alim1">
+          <img
+            src="https://www.kfcmongolia.com/img/__logo.fb24375c.png"
+            alt=""
+          />
+        </div>
+        <div class="alim2">
+          <div class="hover">
+            <div class="nevtreh">
+              <div class="hover">
+                нэвтрэх
+                <i class="fa fa-user" style="font-size: 24px"></i>
+              </div>
+            </div>
+          </div>
+          <div class="sags">
+            <div class="hover">
+              сагс
+              <i class="fa fa-shopping-bag" style="font-size: 24px"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="a">
+            <h1>KFC байршлыг харах</h1>
+        </div>
+  
+  
+        <div class="as">
+  
+            <div class="red"></div>
+            <div class="white"></div>
+            <div class="red1"></div>
+            <div class="white1"></div>
+            <div class="red2"></div>
+  
+        </div>
+        <div class="y"><img src="../ovgon.png" height="170px " alt="">
+            <div>
+                <div class="r">
+                    <h1>БИДНИЙ ТУХАЙ</h1>
+                    <div class="s">
+                        <h4> KFC УВС </h4>
+                        <h4> Нээлтгүй ажлын байр</h4>
+                        <h4>Нийгмийн хариуцлага байхгүй</h4>
+                        <h4>Үйлчилгээний нөхцөл бол хог</h4>
+                        <h4>Нууцлалын бодлого тэнэг</h4>
+                    </div>
+  
+                </div>
+  
+            </div>
+            <div class="d">
+                <h1>ХОЛБОО БАРИХ</h1>
+                <div class="assasa">
+                    <img src="../h2.png    " height="30px" alt="">
+                    <h1>7555-5555</h1>
+                </div>
+  
+  
+            </div>
+    </div>
+
+
+    <script>
+        const clickBtn = ()=>{
+            window.location.href = 'KFC.html'
+        }
+    </script>
+    <script>
+        const clickMenu = () => {
+          if (document.getElementById("slide").style.display === "flex") {
+            document.getElementById("slide").style.display = "none";
+          } else {
+            document.getElementById("slide").style.display = "flex";
+          }
+        };
+        const clickredx = () => {
+          if (document.getElementById("slide").style.display === "flex") {
+            document.getElementById("slide").style.display = "none";
+          } else {
+            document.getElementById("slide").style.display = "flex";
+          }
+        };
+      </script>
+    
+</body>
+</html>
