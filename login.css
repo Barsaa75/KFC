@@ -4,6 +4,13 @@
 body{
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+.nevtrehlink{
+  text-decoration: none;
+  color: #9d9d9d;
+}
+.nevtrehlink:hover{
+  color: black;
+}
 .login-page {
   width: 475px;
   padding: 8% 0 0;

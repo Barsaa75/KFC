@@ -69,6 +69,13 @@ img.sum{
     width: 20px;
     height: 20px;
 }
+.nevtrehlink{
+    text-decoration: none;
+    color: #9d9d9d;
+}
+.nevtrehlink:hover{
+    color: black;
+}
 .backSign{
     width: 150px;
     display: flex;
